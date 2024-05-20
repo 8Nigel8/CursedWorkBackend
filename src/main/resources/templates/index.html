@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Interactive Graph</title>
+    <script src="https://unpkg.com/cytoscape/dist/cytoscape.min.js"></script>
+    <style>
+        #cy {
+            width: 75%;
+            height: 90vh;
+            display: inline-block;
+            position: absolute;
+            left: 0;
+        }
+        #sidebar {
+            width: 25%;
+            height: 90vh;
+            position: absolute;
+            right: 0;
+            display: inline-block;
+            background-color: #f0f0f0;
+        }
+        button {
+            display: block;
+            margin: 20px;
+        }
+        #cy.addNodeMode {
+            cursor: crosshair;
+        }
+    </style>
+</head>
+<body>
+<div id="cy"></div>
+<div id="sidebar">
+    <button id="addNodeButton">Додати</button>
+</div>
+
+<script>
+
+</script>
+</body>
+</html>
